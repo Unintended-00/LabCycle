@@ -1,0 +1,1 @@
+args: -o, main, -g(debug), main.cpp(file name)
