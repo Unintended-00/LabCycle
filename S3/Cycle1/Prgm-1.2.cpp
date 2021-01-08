@@ -14,6 +14,6 @@ int main()
     int a, b, c = 0;
     todo(a, b, c);
 
+    cin.ignore();
     cin.get();
-    return 0;
 }
