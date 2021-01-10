@@ -1,0 +1,42 @@
+
+
+1.Define a class Date. Overload the operator '+' such that it adds
+ a given date with certain number of days.
+
+2. Distance is measured in feet and inches unit. Use operator
+ overloading for  '+' operator for adding two such distances and '<' for
+ comparing two such distances. (one of the operator function should be
+ implemented as friend function.)
+
+3. Write a program using operator overloading to overload Stream 
+operators (<< and >>) to read and display the objects of complex class.
+ 
+4. A class representing distance is measured in the unit of feet and inches.
+ Write a program to do conversion from meter unit to objects of class
+ type and objects of class type to meter.
+
+5. Polar coordinates are represented in angle and radius format
+ while rectangular coordinates represented as (x,y).
+ Define classes for both types and include member functions to convert
+ from polar to rectangular coordinates.(conversion from class to class.)
+
+6. Employee class contain details like name,emp no,pay rate,
+ constructor function and a pay() function. Manager class inherits
+ from employee and has the option of drawing pay on hourly basis or
+ salary basis and has an additional data issalaried(bool).
+ Class Supervisor is derived from employee  and has an additional
+ field department and is always salaried. Base and both  derived
+ classes should contain pay() function with same name.
+
+
+7. Write a C++ program to create a class STUDENT with age name and
+ register number. Using Inheritance, derive two classes MTech-stud
+ and BTech-stud.List both the category of students in the increasing order
+ of marks( for BTech-stud) and gpa( for MTech-stud). In case of tie,
+ display whichever name comes first. Make sort() function as a virtual function.
+
+
+8. Implement the base class Shape and derive triangle,rectangle,
+ circle and square classes from it. Implement functions to compute
+ the area and perimeter of the polygon. Use the concept of pure
+ virtual functions.
